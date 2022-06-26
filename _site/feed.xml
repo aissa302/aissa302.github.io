@@ -1,0 +1,239 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>Chirpy</title>
+  <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
+  <updated>2022-06-26T17:53:10+08:00</updated>
+  <author>
+    <name>your_full_name</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator>
+  <rights> © 2022 your_full_name </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Computer Security</title>
+    <link href="http://localhost:4000/posts/Computer-Security/" rel="alternate" type="text/html" title="Computer Security" />
+    <published>2022-03-09T00:00:00+08:00</published>
+  
+    <updated>2022-03-09T00:00:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/Computer-Security/</id>
+    <content src="http://localhost:4000/posts/Computer-Security/" />
+    <author>
+      <name>{"name"=>"Aissa Ben yahya", "time"=>"2022-02-10 15:15 +0100"}</name>
+    </author>
+
+  
+    
+    <category term="Hacking" />
+    
+    <category term="Tools" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Interacting with ELF file
+readelf #To parse the ELF header
+objdump
+nm
+patchelf
+objcopy
+strip
+kaitai struct # (https://ide.kaitai.io)
+
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Privilege Escalation</title>
+    <link href="http://localhost:4000/posts/Privilege-Escalation/" rel="alternate" type="text/html" title="Privilege Escalation" />
+    <published>2022-02-23T02:25:00+08:00</published>
+  
+    <updated>2022-02-23T02:25:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/Privilege-Escalation/</id>
+    <content src="http://localhost:4000/posts/Privilege-Escalation/" />
+    <author>
+      <name>{"name"=>"Aissa Ben yahya"}</name>
+    </author>
+
+  
+    
+    <category term="Hacking" />
+    
+    <category term="Tools" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      In your journey playing CTF or doing real penetration testing you will fall in this situation where you need to escalate your privileges in order to procced further. Without escalating your privileges you will never be able to have a full control on the target machine. Down below you will find some usefull archive of known most common methods of privilege escalation.
+
+Check sudo privileges
+sudo...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>SQLMAP</title>
+    <link href="http://localhost:4000/posts/Hacking-Tools/" rel="alternate" type="text/html" title="SQLMAP" />
+    <published>2022-02-10T23:09:00+08:00</published>
+  
+    <updated>2022-02-10T23:09:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/Hacking-Tools/</id>
+    <content src="http://localhost:4000/posts/Hacking-Tools/" />
+    <author>
+      <name>{"name"=>"Aissa Ben yahya"}</name>
+    </author>
+
+  
+    
+    <category term="Hacking" />
+    
+    <category term="Tools" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      SQL Map
+
+SQLMAP is a tool to search for sql injection vulnerabilities.
+
+Get a shell with sqlmap
+
+sqlmap -u 'http://10.129.171.190/dashboard.php?search=sa' --cookie="PHPSESSID=dnmjjjj6rias1o8pc3ob5rj7j9" --os-shell
+
+If something goes wrong with your sqlmap tool after a successful usage, you can try and flush the session by adding --flush-session --time-sec=20 argument
+
+The command line above wil...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Stable Shell</title>
+    <link href="http://localhost:4000/posts/stableshell/" rel="alternate" type="text/html" title="Stable Shell" />
+    <published>2022-02-10T00:00:00+08:00</published>
+  
+    <updated>2022-02-10T00:00:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/stableshell/</id>
+    <content src="http://localhost:4000/posts/stableshell/" />
+    <author>
+      <name>{"name"=>"Aissa Ben yahya", "time"=>"2022-02-10 16:28 +0100"}</name>
+    </author>
+
+  
+    
+    <category term="Hacking" />
+    
+    <category term="Tools" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      We all likes to play CTFs, I do too. But sometimes we do a reverse shell using netcat. The shell we get back most of time is not stable. Thus, we need to make it stable. Down below you will find the instructions to make a stable shell.
+
+Spawning a TTY shell
+
+python3 -c 'import pty; pty.spawn("/bin/bash")'
+
+After spawning a tty shell, click Ctrl+z and execute the command below:
+
+stty raw -echo
+
+...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Projects</title>
+    <link href="http://localhost:4000/posts/projects/" rel="alternate" type="text/html" title="Projects" />
+    <published>2021-12-26T00:00:00+08:00</published>
+  
+    <updated>2022-01-05T18:15:46+08:00</updated>
+  
+    <id>http://localhost:4000/posts/projects/</id>
+    <content src="http://localhost:4000/posts/projects/" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Project Based Learning
+
+
+A list of programming tutorials in which aspiring software developers learn how to build an application from scratch. These tutorials are divided into different primary programming languages. Tutorials may involve multiple technologies and languages.
+
+To get started, simply fork this repo. Please refer to CONTRIBUTING.md for contribution guidelines.
+
+Table of Contents:
+...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
