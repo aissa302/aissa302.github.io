@@ -4,7 +4,8 @@ title: Embedded systems devices and companies name
 author:
   name: Aissa Ben yahya
   time: 2022-09-04 10:20 +0100
-categories: [PhD]
+categories: [PhD, Embedded systems]
+tags: [Embedded systems]
 ---
 
 ## IoT
