@@ -3,7 +3,7 @@ layout: page
 title: Embedded systems devices and companies name
 author:
   name: Aissa Ben yahya
-  time: 2022-09-04 10:20 +0100
+  time: 2022-09-04 10:25 +0100
 categories: [PhD, Embedded systems]
 tags: [Embedded systems]
 ---
