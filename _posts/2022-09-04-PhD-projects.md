@@ -1,15 +1,16 @@
 ---
 layout: page
-title: Embedded systems devices and companies name
+title: Embedded systems devices 
 author:
   name: Aissa Ben yahya
   time: 2022-09-04 10:25 +0100
 categories: [PhD, Embedded systems]
-tags: [Embedded systems]
+tags: [Embedded systems, IoT devices, ICS devices, Connected Cars]
 ---
+Here is a list of devices belonging to embedded systems realm such as IoT, ICS, and connected cars.
 
 ## IoT
-
+------
 - Asus RT-N10+
 - Huawei Quidway switches
 - SerVision HVG Video Gateway
@@ -56,3 +57,41 @@ tags: [Embedded systems]
 - NX-OS
 - Cisco IOS
 - D-Link
+
+## ICS
+------
+* SIMATIC S7-1200
+* SANTIS 50
+* SIMATIC HMI Basic Panels
+* Wind River
+* RTOS
+* GE Digital Energy MDS PulseNET
+* ABB PCM600
+* OneTouch Ping devices
+* HMI/SCADA
+* ABB MicroSCADA
+* ABB CP400
+* AC2000
+* SDM600
+* Appliance 3000
+* Siemens SIMATIC STEP 7
+
+## Connected Cars
+-----------------
+* Telematics
+* Hyundai
+* BMW
+* Tesla
+* Jeep
+* Ford
+* Nissan
+* Toyota
+* Volkswagen
+* General Motors
+* Audi
+* Mercedes-Benz
+* Subaru
+* Lexus
+* Fiat Chrysler
+* automobile
+* infotainment
