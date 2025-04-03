@@ -1,0 +1,68 @@
+ul#navigation li.external:hover .icon, ul#navigation li.currentmenu .icon{
+	color: #C05530;
+}
+.ul-boxed li {
+	border-left-color:#C05530;
+}
+ul.ul-card li .dy .year {
+	background-color: #C05530;
+}
+ul.ul-dates div.dates span {
+	background-color: #C05530;
+}
+ul.timeline li .date {
+	background: #C05530;
+}
+ul.timeline li .data {
+	border-left-color: #C05530;
+}
+.ul-withdetails li .imageoverlay {
+	background: #C05530;
+}
+.cd-active.cd-dropdown > span {
+	color: #C05530;
+}
+.cd-active.cd-dropdown ul li span:hover {
+	background: #C05530;
+}
+.pitems .pubmain .pubassets {
+	border-top-color:#C05530; 
+}
+.pitems .pubmain .pubassets a:hover,.pitems .pubmain .pubassets a:focus,.pitems .pubmain .pubassets a.pubcollapse {
+	background: #C05530;
+}
+.contact-office .icon-huge, .contact-lab .icon-huge {
+	color: #C05530;
+}
+
+/* socpndary color 
+**************************************************/
+ul.ul-card li .dy .degree {
+	background-color: #C05540;
+}
+ul.ul-dates div.dates span:last-child {
+	background-color: #C05540;
+}
+ul.timeline li.open .circle {
+	background-color: #C05540;
+}
+ul.timeline li.open .data {
+	border-color: #C05540;
+}
+#labp-heads-wrap {
+	background-color: #C05540;
+}
+#labp-heads-wrap:after{
+	border-top-color: #C05540;
+}
+
+
+
+
+
+
+
+
+
+
+
